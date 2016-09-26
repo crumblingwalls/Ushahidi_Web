@@ -602,7 +602,7 @@ class Installer_Wizard {
 	 */
 	public static function install_database()
 	{
-		// Verify the host, username and password have been specified
+		// Verify that host, username and password have been specified
 		$params = array('host', 'username', 'password', 'database');
 		
 		if ( ! self::_validate_params($params, $_POST))
